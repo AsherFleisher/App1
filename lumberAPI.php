@@ -44,13 +44,5 @@ switch ($page)
     $a->go();
     break;
 }
-        //     //if choseמ a page from the stepMenu page go to it
-        //     if(isset($_POST["goTo"]))
-        //     {
-        //         $_SESSION["currentStep"] = $_POST["goTo"];
-        //         setcookie("pagecookie", $_SESSION["currentStep"], time()+3600*24*30);// add this in when live: , "/", "lumbergo.com"
-        //         unset($_POST["goTo"]);
-        //     }
-
 
       ?>
