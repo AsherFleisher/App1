@@ -1,6 +1,5 @@
 function ajax(a) {
-    // var b = document.getElementById("onloadPage");
-    // b.innerHTML = "";
+    
     var action = a;
     var data = new FormData();
     data.append("page", action);
